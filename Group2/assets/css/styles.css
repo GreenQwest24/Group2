@@ -236,9 +236,41 @@ toggle-icon{
 
 }
 /* !HERO */
-
-
-
+.hero{
+    padding: 6rem 0 5rem;
+}
+.text-content-group{
+    text-align: center;
+}
+.tagline-wrapper{
+    background-color: #fdecec;
+    border-radius: 2.3rem;
+    display:inline;
+    align-items: center;
+    margin-bottom: 2rem;
+    width:fit-content;
+    padding: 1.2rem 1,6rem;
+}
+.tagline{
+    font: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color:var-(--accent-color);
+}
+.pizza-image{
+    width:2.6rem;
+    height:2.4rem;
+    margin: 0.8rem;
+}
+.title{
+    color: var(--dark-color);
+    font-weight: 700;
+}
+.main-title{
+    font-size: 3rem;
+    line-height: 5.8rem;
+    scroll-padding: -0.5rem;
+}
 /* !WHAT WE SERVE */
 
 /* !WHY CHOOSE US */
